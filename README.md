@@ -8,13 +8,13 @@ make an issue and I'll happily add it.
 
 ### To get prayer times for a particular day.
 ```
-GET https://api.faizaan.dev/times/https://api.faizaan.dev/times?lat={latitude}&lon={longitude}&m={month (1-12)}&y={4-digit year}&d={day}
+GET https://api.faizaan.dev/times?lat={latitude}&lon={longitude}&m={month (1-12)}&y={4-digit year}&d={day}
 ```
 
 ### To get prayer times for a whole month.
 (Omit the &d= parameter.)
 ```
-GET https://api.faizaan.dev/times/https://api.faizaan.dev/times?lat={latitude}&lon={longitude}&m={month (1-12)}&y={4-digit year}
+GET https://api.faizaan.dev/times?lat={latitude}&lon={longitude}&m={month (1-12)}&y={4-digit year}
 ```
 
 This repository is licensed under the MIT License. The praytime.js library is licensed under the LGPL license; see src/praytime.js for info.
